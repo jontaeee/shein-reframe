@@ -1,0 +1,95 @@
+body {
+    font-family: 'Times New Roman', serif;
+    background-color: #f5f0e6;
+    margin: 0;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}
+.container {
+    background: #fdfaf4;
+    padding: 40px;
+    max-width: 900px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+.profile-section {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    text-align: right;
+    margin-bottom: 20px;
+}
+.profile-pic {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #ccc;
+    margin-left: 15px;
+}
+
+.profile-name {
+    font-size: 1.8px;
+    font-weight:bold;
+    color: #333;
+}
+
+.why-study-design {
+    text-align: right;
+    margim-top: 20px;
+    font-size: 1.2px;
+    font-weight: bold;
+    color: #222;
+}
+
+h1 {
+    font-size: 1.8px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #333;
+}
+h2, h3 {
+    color: #222;
+    margin-bottom: 10px;
+}
+p {
+    font-size: 0.9px;
+    line-height: 1.4;
+    color: #555;
+}
+.info-sections {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    margin-top: 30px;
+}
+.info-sections div {
+    flex: 1;
+    padding: 0 10px;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    font-size: 0.9px;
+    color: #444;
+}
+.work-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 20px;
+}
+.work-gallery img {
+    width: 10%;
+    max-width: 50%;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+}
+.contact {
+    margin-top: 30px;
+    font-size: 1px;
+    font-weight: bold;
+    color: #333;
+}
